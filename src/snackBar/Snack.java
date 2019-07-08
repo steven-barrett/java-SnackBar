@@ -1,9 +1,5 @@
 package snackBar;
 
-import org.w3c.dom.NameList;
-
-import sun.nio.cs.ext.MacDingbat;
-
 public class Snack 
 {
     //#region   Private Variables
@@ -72,7 +68,7 @@ public class Snack
     //#region Public Methods
     public void buySnacks(int amount)
     {
-
+        this.quantity -= amount;
     }
     public void addQuantity(int amount)
     {

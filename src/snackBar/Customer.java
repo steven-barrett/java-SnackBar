@@ -1,7 +1,5 @@
 package snackBar;
 
-import org.w3c.dom.NameList;
-
 public class Customer
 {
     //#region Private Variables
@@ -41,6 +39,14 @@ public class Customer
     //#endregion
     
     //#region Public Methods
+    public void addCash(double amountAdded)
+    {
+        this.cashOnHand += amountAdded;
+    }
+    public void makePurchase(double cost)
+    {
+        this.cashOnHand -= cost;
+    }
     //#endregion
     
 }
