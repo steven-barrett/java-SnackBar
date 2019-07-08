@@ -77,6 +77,26 @@ public class Main
         System.out.println("Pretzels3 left: " + Pretzels3.getQuantity());
         System.out.println("--------------------------------------------------------");
 
+
+        // Chips stats
+        chips1.displayStats();
+        System.out.println("--------------------------------------------------------");
+
+        // Chocolate bar stats
+        chocolateBar2.displayStats();
+        System.out.println("--------------------------------------------------------");
+
+        // Pretzels stats
+        Pretzels3.displayStats();
+        System.out.println("--------------------------------------------------------");
+
+        // Soda stats
+        soda4.displayStats();
+        System.out.println("--------------------------------------------------------");
+
+        // Water stats
+        water5.displayStats();
+        System.out.println("--------------------------------------------------------");
     }
 }
 

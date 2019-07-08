@@ -78,5 +78,25 @@ public class Snack
     {
         return cost * (double)quantity;
     }
+    public void displayStats()
+    {
+        System.out.println("Snack Name: " + this.name);
+
+        if (this.vendingMachineID == 1)
+        {
+            System.out.println("From the Food vending machine");
+        }
+        else
+        {
+            System.out.println("From the Drink vending machine");
+        }
+
+        System.out.println("There are " + this.quantity + " " + this.name + " left");
+
+        double totalCost = quantity * cost;
+        System.out.println("The total cost of remaining " + this.name + " = " + totalCost);
+
+
+    }
     //#endregion
 }
